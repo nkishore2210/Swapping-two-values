@@ -18,7 +18,20 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
+```
+#Program to swap two values.
+#Developed by: N.Kishore
+#RegisterNumber: 212222240049
 
+num1=int(input())
+num2=int(input())
+temp=num1
+num1=num2
+num2=temp
+print("Swapped values are:",num1,num2)
+```
+## OUTPUT:
+![Swpping-two-values](pyex1pic.png)
 
 
 ## RESULT:
